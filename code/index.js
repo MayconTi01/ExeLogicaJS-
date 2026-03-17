@@ -1,10 +1,10 @@
 console.log( "Lista de 100 exercicios de logica com JS")
 
-// ====== EXERCICIO 2  ===============
+// ====== EXERCICIO 3  ===============
 
-//2. Subtração de dois números — Domínio: operadores matemáticos
+//3. Multiplicar dois números — Domínio: operadores matemáticos
 
-let num1 = 60 ; 
-let num2 = 30 ;  
-let sub = num1 - num2; 
-console.log(`O resultado de ${num1} - ${num2} = ${sub}`)
+let num1 = 10 ; 
+let num2 = 10 ;  
+let mult = num1 * num2; 
+console.log(`O resultado de ${num1} X ${num2} = ${mult}`)
