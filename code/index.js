@@ -2,13 +2,14 @@ console.log( "Lista de 100 exercicios de logica com JS")
 
 // ====== EXERCICIO 4  ===============
 
-//4. Divisão com validação de zero — Domínio: if/else.
+//5.  o Número e par ou ímpar — Domínio: operador %.
 
-let num1 =  100 ; 
-let num2 =  20 ;  
-let div= num1 / num2;
-if (num1 === 0  || num2 === 0  ){ 
-    console.log(`Essa divisão e por zero`)
+let numAverificar = 26 ; 
+let dois = 2 ;  
+let resto = numAverificar% dois
+
+if (resto === 0 ){ 
+    console.log(`Esse numero e par, pois seu resto e ${resto}`)
 } else { 
-    console.log(`Essa divisão e valida, resultado : ${div} `)
+    console.log(`Esse e um mumero impar, pois seu resto e ${resto} `)
 }
