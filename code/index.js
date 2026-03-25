@@ -1,15 +1,16 @@
 console.log( "Lista de 100 exercicios de logica com JS")
 
-// ====== EXERCICIO 4  ===============
+// ====== EXERCICIO 6 ===============
 
-//5.  o Número e par ou ímpar — Domínio: operador %.
+//6. Maior entre dois números — Domínio: comparação.
 
-let numAverificar = 26 ; 
-let dois = 2 ;  
-let resto = numAverificar% dois
+let num1 = 10 
+let num2 = 10
 
-if (resto === 0 ){ 
-    console.log(`Esse numero e par, pois seu resto e ${resto}`)
+if (num1 > num2 ){ 
+    console.log(`${num1} e maior que ${num2}`)
+} else if ( num1 < num2 ) { 
+    console.log(`${num2} e maior que ${num1}`)
 } else { 
-    console.log(`Esse e um mumero impar, pois seu resto e ${resto} `)
+    console.log( ' os numero são iguais')
 }
